@@ -1,0 +1,140 @@
+*{
+    font-family: "Pacifico";
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #0EB1D2 ;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+.service{
+    background-color: #6553c9;
+    padding: 20px;
+}
+
+.service > h1{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.box{
+    margin: auto;
+    border: 1px solid white;
+    background-color: white;
+    height: 460px;
+    width: 350px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+.box img{
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin: 0 auto 0 auto;
+    padding: 20px;
+}
+
+.box > p{
+    text-align: center;
+    font-size: 30px;
+    font-family: Montserrat;
+}
+
+.box >button{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-family: Montserrat;
+}
+
+.cart{
+    padding: 30px;
+}
+
+.cart h2{
+    font-family: Montserrat;
+    font-size: 40px;
+    text-align: center;
+}
+
+.cart h3{
+    font-family: Montserrat;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.foot{
+    background-color: #000000;
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.foot h2{
+    font-family: Montserrat;
+    font-size: 28px;
+}
+
+.foot a{
+    font-family: Montserrat;
+}
+
+.cart-row{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    height: 220px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cart-row1, .cart-row2,.cart-row3, .cart-row4{
+    height: fit-content;
+    width: fit-content;
+
+}
+
+.cart-row1 img{
+    height: 200px;
+    width: 200px;
+}
+
+.cart-row2 p{
+    font-size: 30px;
+}
+
+.cart-row3{
+    font-size: 40px;
+}
+
+.kart .space{
+    height: 0px;
+}
+
+.beli{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.btn-dark{
+    height: 60px;
+    width: 140px;
+    font-size: 24px;
+    font-family: Montserrat;
+}
